@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index/index.css">
+    <link rel="stylesheet" href="index/phone-index.css">
+   <style>
+  
+    body {
+        background-color: #E0C9A6 ;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        font-family: arial;
+    }
+    .header {
+      background-color:  red;
+      border: 7px solid darkred;
+        padding: 8px;
+        text-align: center;
+        color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: -1;
+        position: fixed;
+        width: 1470px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        background-color: aliceblue ;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+    .container {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        left: 250px;
+        top: 180px;
+        font-size: 20px; 
+        padding: 10px;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,5,255,1) 100%);
+        border: 7px solid darkblue;
+        border-radius: 20px;
+        height: 200%;
+        width: 1000px;
+        color:  white;
+        z-index: -2;
+    }
+
+    .info {
+        text-align: center;
+    }
+    .foot {
+        position: absolute;
+        left: 570px;
+        bottom: 0;
+        text-align: center;
+    }
+
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        body {
+            background: #F5F5F5;
+            padding: 0;
+            margin: 0;
+            height: 200vh;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .header {
+            background: rgb(112, 128, 144);
+            padding: 8px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            position: fixed;
+            font-size: 10px;
+            z-index: -1;
+            background-color:  red;
+            border: 7px solid darkred;
+        }
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+          }
+          
+          .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+          }
+          
+          .sidenav a:hover {
+            color: #f1f1f1;
+          }
+          
+          .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+          }
+        .container {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            position: absolute;
+            left: 20px;
+            top: 180px; 
+            font-size: 20px; 
+            padding: 10px;
+           background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,5,255,1) 100%);
+            border: 7px solid darkblue;
+            height: 200%;
+            width: 300px;
+
+        }
+        .foot {
+            position: absolute;
+            left: 100px;
+            bottom: 0;
+            text-align: center;
+        }
+    }
+    span {
+        position: absolute;
+        top: 30px;
+        z-index: 1;
+        left: 10px;
+        position: fixed;
+        color: white;
+    }
+   </style>
+</head>
+<body>
+    <div class="header">
+        <h1>XNANYT SERVICE</h1>
+        
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="price.html">Prices</a>
+  <a href="https://discord.gg/vfd87q2g2q">Discord</a>
+  <a href="https://www.facebook.com/profile.php?id=61553452125829 ">Fb Page</a>
+
+</div>
+
+
+
+<span  style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
+    <div class="container">
+       <div class="info"><header>Information Pilot Blox Fruit Account</header></div>
+
+        <ul>
+            <li>Are you tired of farming on blox fruit and want to level as fast as you can? <br>We are offering auto-pilot on your Blox Fruit account.</li>
+        <p> What is a pilot? We will automatically farm your account if you want to.</p>
+        <p>for example, the auto farm level that you desire, like max, 2nd sea, or 3rd sea </p>
+        <p> and many more are on the list.</p>
+        <li>auto beli/money</li>
+        <li>auto bone</li>
+        <li>auto v2 observation haki</li>
+        <li>auto sword</li>
+        <li>auto mastery</li>
+        <li>auto raid/awake</li>
+        <li>auto full awake dough/phoenix</li>
+        <li>auto fragments</li>
+        <li>auto items</li>
+        <li>and many more</li>
+        <h2>How do I know my account is safe?</h2>
+        <h4>We will make sure that your account is 100% safe.</h4>
+        <h4>We have a policy that if you don't have a pin on your account, we will not accept it.</h4>
+        <h1>POLICY</h1>
+        <li>must your account have a verified email.</li>
+        <li>must your account have a pin</li>
+        <h1>ALSO IM SELLING FRUIT</h1>
+        <h3>check it price on menu</h3>
+        </ul>
+      </div>  
+</div>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+</body>
+</html>
